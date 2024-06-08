@@ -1,0 +1,45 @@
+{
+    "parent": "minecraft:item/handheld_rod",
+    "textures": {
+      "layer0": "minecraft:item/warped_fungus_on_a_stick"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 1
+        },
+        "model": "rl:rods/thief"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 2
+        },
+        "model": "rl:rods/coiled"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 3
+        },
+        "model": "rl:rods/flames"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 4
+        },
+        "model": "rl:rods/destruction"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 5
+        },
+        "model": "rl:rods/frozen"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6
+        },
+        "model": "rl:rods/forgotten"
+      }
+    ]
+  }
+  

@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "item/rods",
+      "prefix": "item/rods/"
+    },
+    {
+      "type": "directory",
+      "source": "item/rods_item",
+      "prefix": "item/rods_item/"
+    }
+  ]
+}

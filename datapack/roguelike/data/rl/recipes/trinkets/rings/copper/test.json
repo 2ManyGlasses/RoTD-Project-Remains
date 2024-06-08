@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "category": "FIXME",
+    "pattern": ["...", "...", "..."],
+    "key": { ".": { "item": "minecraft:stick" } },
+    "result": {
+        "id": "minecraft:clock",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": "{\"translate\": \"item.minecraft.clock\", \"italic\": false, \"color\": \"green\"}",
+            "minecraft:lore": [
+                "{\"translate\": \"rl.item.type.utility\", \"color\": \"dark_aqua\", \"italic\": false}",
+                "{\"translate\": \"rl.item.utility.clock.desc1\", \"color\": \"gold\", \"italic\": false}",
+                "{\"translate\": \"rl.item.utility.clock.desc2\", \"color\": \"gold\", \"italic\": false}",
+                "{\"text\": \"***\", \"color\": \"dark_gray\", \"italic\": false}",
+                "{\"translate\": \"rl.item.utility.clock.lore1\", \"color\": \"dark_gray\", \"italic\": false}",
+                "{\"translate\": \"rl.item.utility.clock.lore2\", \"color\": \"dark_gray\", \"italic\": false}"
+            ],
+            "minecraft:custom_data": { "isTrinket": 2, "trinketClock": 1 },
+            "minecraft:max_stack_size": 16
+        }
+    }
+}

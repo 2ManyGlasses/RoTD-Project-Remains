@@ -1,0 +1,7 @@
+execute store result score @s rl_coords_x run data get entity @s Pos[0] 1
+execute store result score @s rl_coords_z run data get entity @s Pos[2] 1
+
+execute if entity @s[y_rotation=135..-135] run title @s actionbar [{"text":"[","color":"gold"},{"score":{"name":"@s","objective":"rl_coords_x"},"color":"gold"}," ",{"score":{"name":"@s","objective":"rl_coords_z"},"color":"gold"},{"text":"]","color":"gold"},"  ",{"text": "( N )", "color": "gold"}]
+execute if entity @s[y_rotation=-135..-45] run title @s actionbar [{"text":"[","color":"gold"},{"score":{"name":"@s","objective":"rl_coords_x"},"color":"gold"}," ",{"score":{"name":"@s","objective":"rl_coords_z"},"color":"gold"},{"text":"]","color":"gold"},"  ",{"text": "( E )", "color": "gold"}]
+execute if entity @s[y_rotation=-45..45] run title @s actionbar [{"text":"[","color":"gold"},{"score":{"name":"@s","objective":"rl_coords_x"},"color":"gold"}," ",{"score":{"name":"@s","objective":"rl_coords_z"},"color":"gold"},{"text":"]","color":"gold"},"  ",{"text": "( S )", "color": "gold"}] 
+execute if entity @s[y_rotation=45..135] run title @s actionbar [{"text":"[","color":"gold"},{"score":{"name":"@s","objective":"rl_coords_x"},"color":"gold"}," ",{"score":{"name":"@s","objective":"rl_coords_z"},"color":"gold"},{"text":"]","color":"gold"},"  ",{"text": "( W )", "color": "gold"}]

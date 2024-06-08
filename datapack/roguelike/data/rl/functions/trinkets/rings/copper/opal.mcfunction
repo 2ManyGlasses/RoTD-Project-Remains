@@ -1,0 +1,2 @@
+attribute @s generic.armor modifier add 0d130387-d8d0-44ae-b995-16395466589a "opal" 2 add_value
+attribute @s generic.armor_toughness modifier add 6d67b82f-7472-4a38-bf3b-77b0bfd6d564 "opal" 1 add_value

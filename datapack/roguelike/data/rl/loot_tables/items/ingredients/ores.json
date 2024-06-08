@@ -1,0 +1,31 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:sequence",
+            "children": [
+              {
+                "type": "minecraft:loot_table",
+                "value": "rl:items/ingredients/ores/copper",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "rl:items/ingredients/ores/iron",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "rl:items/ingredients/ores/gold",
+                "weight": 2
+              }
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

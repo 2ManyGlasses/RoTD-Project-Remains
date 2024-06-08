@@ -1,0 +1,11 @@
+Fonts used:
+	Typecast
+	Owre Kynge
+	Piacevoli
+	
+	Fonts made by fontenddev.com
+
+	Fonts used are licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+Sounds taken from:
+	kenney.nl

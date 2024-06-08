@@ -1,0 +1,60 @@
+{
+    "block.minecraft.yellow_glazed_terracotta" : "Geode",
+    "block.minecraft.bamboo_stairs" : "Barricade",
+    
+ 
+	"rl.discovery.subtitle" : "<~New Area Discovered~>",
+	"rl.discovery.shirley" : "~Shirley~",
+ 
+    "rl.teams.headline" : "Teams",
+    "rl.teams.join" : "Click to join",
+    "rl.teams.current" : "(Current)",
+
+    "rl.teams.unalligned" : "(\uD83D\uDD30) Not Afilliated",
+    "rl.teams.red" : "(\uD83D\uDC26) Red",
+    "rl.teams.green" : "(\uD83D\uDC07) Green",
+    "rl.teams.gold" : "(\uD83D\uDC08) Gold",
+    "rl.teams.aqua" : "(\uD83D\uDC1F) Aqua",
+
+    "rl.teams.unalligned.prefix" : "\uD83D\uDD30 ",
+    "rl.teams.red.prefix" : "\uD83D\uDC26 ",
+    "rl.teams.green.prefix" : "\uD83D\uDC07 ",
+    "rl.teams.gold.prefix" : "\uD83D\uDC08 ",
+    "rl.teams.aqua.prefix" : "\uD83D\uDC1F ",
+	
+	"rl.item.type.wand" : "Magic Rod",
+	
+	"rl.item.wand.cost" : "Cost: ",
+	
+	"rl.item.wand.thief.name" : "Rod of Thiefs",
+	"rl.item.wand.thief.desc" : "15% chance of opening locks",
+	"rl.item.wand.thief.lore.1" : "Tool searched by rogues everywhere",
+	"rl.item.wand.thief.lore.2" : "Is said to be able to open any lock",
+	
+	"rl.item.wand.frozen.name" : "Frozen Rod",
+	"rl.item.wand.frozen.desc" : "Shoots a freezing beam",
+	"rl.item.wand.frozen.lore.1" : "Made from star's heart, dying in agony",
+	"rl.item.wand.frozen.lore.2" : "It's eerily cold to the touch",
+	
+	"rl.item.wand.coiled.name" : "Coiled Rod",
+	"rl.item.wand.coiled.desc1" : "Shoots a condensed beam",
+	"rl.item.wand.coiled.desc2" : "of shocking electricity",
+	"rl.item.wand.coiled.lore.1" : "Amalgamation of magic",
+	"rl.item.wand.coiled.lore.2" : "and long forgotten technology",
+	
+	"rl.item.wand.destruction.name" : "Rod of Destruction",
+	"rl.item.wand.destruction.desc" : "Summons an explosion where aimed",
+	"rl.item.wand.destruction.lore.1" : "Highly unstable and unpredictable",
+	"rl.item.wand.destruction.lore.2" : "Made by a mage who wanted to annoy others",
+	
+	"rl.item.wand.flames.name" : "Rod of Flames",
+	"rl.item.wand.flames.desc1" : "Shoots a projectile that",
+	"rl.item.wand.flames.desc2" : "sets enemies ablaze",
+	"rl.item.wand.flames.lore.1" : "Lore I",
+	"rl.item.wand.flames.lore.2" : "Lore II",
+	
+	"rl.item.wand.forgotten.name" : "Forgotten Rod",
+	"rl.item.wand.forgotten.desc" : "\u25A7\u25F1\u25B9\u25F1\u25D3\u25D1\u0020\u25B9\u25A3\u25D1\u0020\u25D3\u25B9\u25D1\u25D3\u25C8\u25F1\u0020\u25D2\u25A7\u0020\u25D0\u25D2\u25D3\u25F1\u25D3\u25D1\u0020\u25D2\u25D0\u25D1\u25D0",
+	"rl.item.wand.forgotten.lore.1" : "\u25D0\u25D1\u25D1\u25A3\u25D1\u0020\u25B9\u25C8\u25F0\u25F1\u25D1\u0020\u25D3\u25F0\u25C8\u25D1\u25A7\u0020\u25A7\u25F1\u25C8\u0020\u25D3\u25D2\u25D3\u25B9",
+	"rl.item.wand.forgotten.lore.2" : "\u25B9\u25B9\u25F0\u25C8\u25A7\u25D3\u25B9\u25F1\u25B9\u25F1\u25D0\u0020\u25A3\u25D2\u25F0\u25A3\u25B9\u25C8\u25F0\u25B9\u25A3\u25D0\u0020\u25D3\u25F0\u25D3\u25D1\u25F1"
+}

@@ -1,0 +1,3 @@
+execute as @a if predicate rl:player/show_mana unless predicate rl:player/utility run scoreboard players add @s rl_mana_max 1
+execute as @a if predicate rl:player/show_mana unless predicate rl:player/utility run title @s actionbar [{"text":"✨","color":"aqua"},{"score":{"name":"@s","objective":"rl_mana"},"color":"aqua"},{"text":"/","color":"aqua"},{"score":{"name":"@s","objective":"rl_mana_max"},"color":"aqua"}]
+execute as @a if predicate rl:player/show_mana unless predicate rl:player/utility run scoreboard players remove @s rl_mana_max 1

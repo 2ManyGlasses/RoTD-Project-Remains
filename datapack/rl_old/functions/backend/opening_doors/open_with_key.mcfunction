@@ -1,0 +1,1 @@
+execute as @s on target if entity @s[nbt={SelectedItem:{tag:{isKey:1b}}}] run function rl:backend/opening_doors/key_success

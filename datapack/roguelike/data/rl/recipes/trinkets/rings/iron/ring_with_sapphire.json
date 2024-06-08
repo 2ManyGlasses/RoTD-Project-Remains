@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "#M#",
+      "# #",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:iron_ingot"
+      },
+      "M": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "result": {
+      "id": "minecraft:shelter_pottery_sherd",
+      "count": 1,
+      "components": {
+        "minecraft:custom_name": "{\"translate\":\"rl.item.trinkets.ring.iron.sapphire\", \"italic\":false, \"color\":\"aqua\"}",
+        "minecraft:lore": [
+          "{\"translate\":\"rl.item.type.trinket\", \"color\":\"dark_aqua\",\"italic\":false}",
+          "{\"translate\":\"rl.item.trinkets.ring.iron.sapphire.desc\", \"color\":\"green\",\"italic\":false}",
+          "{\"text\":\"***\", \"color\":\"dark_gray\",\"italic\":false}",
+          "{\"translate\":\"rl.item.trinkets.ring.iron.sapphire.lore1\", \"color\":\"dark_gray\",\"italic\":false}",
+          "{\"translate\":\"rl.item.trinkets.ring.iron.sapphire.lore2\", \"color\":\"dark_gray\",\"italic\":false}"
+
+        ],
+        "minecraft:custom_model_data": 6,
+        "minecraft:max_stack_size" : 1,
+        "minecraft:custom_data": {
+            "isTrinket":1,
+            "ringSapphire":2
+        }
+      }
+    }
+  }
+  

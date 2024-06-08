@@ -1,0 +1,29 @@
+{
+    "lockpick_used": {
+        "subtitle" : "Lockpick used",
+        "sounds" : [
+            {"name": "rl:locks/lockpick_used"}
+        ]
+    },
+
+    "chest_unlocked": {
+        "subtitle" : "Lock opened",
+        "sounds" : [
+            {"name": "rl:locks/chest_unlocked"}
+        ]
+    },
+
+    "biome.music.test": {
+        "subtitle" : "Lock opened",
+        "sounds" : [
+            {"name": "rl:biomes/music/test/maestro"}
+        ]
+    },
+
+    "biome.music.test_two": {
+        "subtitle" : "Lock opened",
+        "sounds" : [
+            {"name": "rl:biomes/music/test/snitch"}
+        ]
+    }
+}

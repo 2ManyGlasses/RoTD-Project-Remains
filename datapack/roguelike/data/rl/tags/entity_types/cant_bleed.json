@@ -1,0 +1,16 @@
+{
+"values":
+    [
+        "item",
+        "#arrows",
+        "#impact_projectiles",
+        "item_frame",
+        "glow_item_frame",
+        "interaction",
+        "#skeletons",
+        "experience_orb",
+        "marker",
+        "potion",
+        "experience_bottle"
+    ]
+}

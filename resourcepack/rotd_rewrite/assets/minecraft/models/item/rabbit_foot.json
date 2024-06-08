@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/rabbit_foot"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 1
+        },
+        "model": "rl:trinkets/fossilized_heart"
+      },
+
+      {
+        "predicate": {
+          "custom_model_data": 2
+        },
+        "model": "rl:trinkets/pristine_blade"
+      },
+
+      {
+        "predicate": {
+          "custom_model_data": 3
+        },
+        "model": "rl:trinkets/copper_feather"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 4
+        },
+        "model": "rl:trinkets/old_spellbinder"
+      }
+    ]
+  }
+  

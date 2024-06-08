@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rabbit_foot",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Old Spellbinder\",\"color\":\"dark_purple\",\"italic\":false}',Lore:['{\"text\":\"Trinket\",\"color\":\"dark_aqua\",\"italic\":false}','{\"text\":\"Faster mana regeneration\",\"color\":\"gold\",\"italic\":false}','{\"text\":\"***\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"Old, wierd-looking machine\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"The rings spin constantly,\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"without any force pushing them\",\"color\":\"dark_gray\",\"italic\":false}']},CustomModelData:4,isTrinket:1b,copperFeather:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

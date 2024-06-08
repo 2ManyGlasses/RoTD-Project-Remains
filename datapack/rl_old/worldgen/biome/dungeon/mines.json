@@ -1,0 +1,33 @@
+{
+    "temperature": 0.8,
+    "downfall": 0.4,
+    "has_precipitation": true,
+    "effects": {
+      "sky_color": 7907327,
+      "fog_color": 12638463,
+      "water_color": 4159204,
+      "water_fog_color": 329011,
+      "ambient_sound": { "sound_id":"rl:dungeon.mines.ambient"},
+      "mood_sound": {
+        "sound": { "sound_id":"rl:dungeon.mines.mood"},
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions_sound": {
+        "sound": { "sound_id": "rl:dungeon.mines.additions"},
+        "tick_chance": 0.0111
+      },
+      "music": {
+        "sound": { "sound_id": "rl:dungeon.mines.music"},
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      }
+    },
+    "spawners": {},
+    "spawn_costs": {},
+    "carvers": {},
+    "features": []
+  }
+  

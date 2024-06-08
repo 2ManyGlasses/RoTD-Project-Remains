@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_crystals",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Premium Lockpick\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"50% chance to unlock locked things.\",\"color\":\"gold\",\"italic\":false}','{\"text\":\"***\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"Tool of a thief and a burglar.\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"Extra long rake helps with tougher locks.\",\"color\":\"dark_gray\",\"italic\":false}']},HideFlags:32,CustomModelData:2,lockpickLevel:3b,openable:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

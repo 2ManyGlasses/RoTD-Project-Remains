@@ -1,0 +1,71 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:nautilus_shell",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate":"rl.item.utility.tuner",
+                  "italic":false,
+                  "color": "green"
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate": "rl.item.type.utility",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "translate": "rl.item.utility.tuner.desc1",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "translate": "rl.item.utility.tuner.desc2",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "***",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "rl.item.utility.tuner.lore1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "rl.item.utility.tuner.lore2",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{isTrinket:\"2b\", trinketTuner:\"1b\"}"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:max_stack_size": 16,
+                  "minecraft:custom_model_data" : 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

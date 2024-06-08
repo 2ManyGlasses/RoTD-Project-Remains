@@ -1,0 +1,1 @@
+execute as @e[tag=rl_door_locked] at @s align xyz run summon interaction ~0.5 ~ ~0.5 {width:1.01f,height:2.01f,Tags:["rl_locked_doors"]}

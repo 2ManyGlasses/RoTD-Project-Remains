@@ -1,0 +1,44 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:quartz",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "rl.item.gem.opal",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate":"rl.item.type.ing", 
+                    "color":"dark_aqua",
+                    "italic":false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_data": {"isGem":1, "gemType": "opal"},
+                  "minecraft:custom_model_data": 1,
+                  "minecraft:enchantment_glint_override" : true,
+                  "minecraft:max_stack_size" : 16
+                }
+              }
+            ]
+          } 
+        ]
+      }
+    ]
+  }
+  

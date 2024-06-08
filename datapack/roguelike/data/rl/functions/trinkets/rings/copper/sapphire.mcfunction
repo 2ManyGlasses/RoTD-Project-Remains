@@ -1,0 +1,1 @@
+execute as @a run scoreboard players add @s rl_mana_regen 1

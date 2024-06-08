@@ -1,0 +1,1 @@
+$tellraw @s {"translate": "$(text)", "color": "$(color)"}

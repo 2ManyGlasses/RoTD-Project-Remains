@@ -1,0 +1,2 @@
+attribute @s generic.attack_damage modifier add c74936c8-3633-4dfc-af66-34b8391a2c1c "topaz" 2 add_value
+attribute @s generic.attack_speed modifier add f2d9fb35-e0f5-438f-b857-dae7bef84357 "topaz" 0.25 add_value

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:prismarine_crystals",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Ordinary Key\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Right-Click locked things with\",\"color\":\"gold\",\"italic\":false}','{\"text\":\"a key in your hand to unlock them\",\"color\":\"gold\",\"italic\":false}','{\"text\":\"***\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"Typical key, used to open\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"things that are locked.\",\"color\":\"dark_gray\",\"italic\":false}']},HideFlags:32,CustomModelData:1,isKey:1b,openable:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

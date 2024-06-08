@@ -1,0 +1,36 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "rl_damage_taken": {
+            "min": 1,
+            "max": 2147483647
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "rl_damage_resisted": {
+            "min": 1,
+            "max": 2147483647
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "rl_damage_absorbed": {
+            "min": 1,
+            "max": 2147483647
+          }
+        }
+      }
+    ]
+  }
+  

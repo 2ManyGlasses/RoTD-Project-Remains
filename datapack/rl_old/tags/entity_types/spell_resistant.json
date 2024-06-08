@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values" : [
+        "minecraft:item",
+        "minecraft:armor_stand",
+        "minecraft:interaction",
+        "minecraft:villager",
+        "minecraft:marker",
+        "minecraft:glow_item_frame",
+        "minecraft:item_frame",
+        "minecraft:arrow",
+        "minecraft:spectral_arrow"
+
+    ]
+}

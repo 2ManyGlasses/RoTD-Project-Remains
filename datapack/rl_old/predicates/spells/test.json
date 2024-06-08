@@ -1,0 +1,22 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "rl:spells/has_magic_item"
+  },
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "rl_mana": {
+        "min": 2
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "rl_spell_test": 1
+    }
+  }
+]

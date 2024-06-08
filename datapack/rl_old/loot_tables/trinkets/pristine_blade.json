@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_foot",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Pristine Blade\",\"color\":\"dark_purple\",\"italic\":false}',Lore:['{\"text\":\"Trinket\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"-6 points \",\"color\":\"gold\",\"italic\":false},{\"text\":\"❤\",\"color\":\"red\",\"italic\":false}]','[{\"text\":\"+4 points \",\"color\":\"gold\",\"italic\":false},{\"text\":\"🗡\",\"color\":\"dark_red\",\"italic\":false}]','{\"text\":\"***\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"This blade will be your implement\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"You will need it if you\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"want to do it right\",\"color\":\"dark_gray\",\"italic\":false}']},CustomModelData:2,isTrinket:1b,pristineBlade:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rabbit_foot",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Fossilized Heart\",\"color\":\"dark_purple\",\"italic\":false}',Lore:['{\"text\":\"Trinket\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"+150% \",\"color\":\"gold\",\"italic\":false},{\"text\":\"❤\",\"color\":\"red\",\"italic\":false}]','{\"text\":\"***\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"The heart of a fallen\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"warrior from a diffrent time.\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"Will beat once again for a worthy bearer\",\"color\":\"dark_gray\",\"italic\":false}']},CustomModelData:1,isTrinket:1b,fossilizedHeart:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

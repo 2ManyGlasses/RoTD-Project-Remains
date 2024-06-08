@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"rl.item.wand.thief.name\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"translate\":\"rl.item.type.wand\",\"color\":\"dark_aqua\",\"italic\":false}','{\"translate\":\"rl.item.wand.thief.desc\",\"color\":\"gold\",\"italic\":false}','[{\"translate\":\"rl.item.wand.cost\",\"color\":\"dark_purple\",\"italic\":false},{\"text\":\"5✨\",\"color\":\"aqua\",\"italic\":false}]','{\"text\":\"***\",\"color\":\"dark_gray\",\"italic\":false}','{\"translate\":\"rl.item.wand.thief.lore.1\",\"color\":\"dark_gray\",\"italic\":false}','{\"translate\":\"rl.item.wand.thief.lore.2\",\"color\":\"dark_gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:1,openable:1b, spellAllow:1b, rodThief:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

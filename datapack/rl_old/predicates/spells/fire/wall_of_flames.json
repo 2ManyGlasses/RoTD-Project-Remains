@@ -1,0 +1,22 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "rl:spells/has_magic_item"
+  },
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "rl_mana": {
+        "min": 3
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "rl_spell_wall_of_flames": 1
+    }
+  }
+]

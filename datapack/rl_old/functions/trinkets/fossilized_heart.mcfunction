@@ -1,0 +1,1 @@
+execute as @s run attribute @s generic.max_health modifier add 6cc5efc8-04eb-47fc-a00d-14cda23120b5 "fossilizedHeart" 0.5 multiply

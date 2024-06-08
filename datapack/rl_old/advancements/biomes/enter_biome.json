@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "Location": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "rl:test"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "rl:backend/ui/titles/test"
+    }
+  }
+  

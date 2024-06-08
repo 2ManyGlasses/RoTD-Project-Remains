@@ -1,0 +1,86 @@
+{
+    "type": "minecraft:equipment",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wooden_pickaxe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "rl.item.tool.wooden.pickaxe",
+                                "color": "white",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "translate": "rl.item.type.tool",
+                                    "color": "dark_aqua",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "rl.item.tool.wooden.pickaxe.desc",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "***",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "rl.item.tool.wooden.pickaxe.lore1",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "rl.item.tool.wooden.pickaxe.lore2",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:max_damage": 10,
+                                "minecraft:can_break": {
+                                    "blocks": "#rl:pickaxe_breakable"
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.attack_speed",
+                                    "name": "ASP",
+                                    "amount": -0.8,
+                                    "operation": "add_multiplied_total",
+                                    "id": "e457a9ed-dc39-41a6-b185-323d9c0ee287",
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.attack_damage",
+                                    "name": "ATK",
+                                    "amount": 1,
+                                    "operation": "add_value",
+                                    "id": "a5a123e7-b39b-4490-9e52-692640f9c312",
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

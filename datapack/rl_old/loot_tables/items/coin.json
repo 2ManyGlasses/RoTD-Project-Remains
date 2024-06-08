@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Coin\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"***\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"Common currency accepted\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"almost everywhere\",\"color\":\"dark_gray\",\"italic\":false}']},CustomModelData:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+attribute @s generic.max_health modifier add 9ef3ae80-9499-4408-960b-1c9f5164688a "ruby" 4 add_value

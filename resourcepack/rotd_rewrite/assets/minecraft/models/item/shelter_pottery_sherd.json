@@ -1,0 +1,47 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/shelter_pottery_sherd"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 1
+        },
+        "model": "rl:trinkets/rings/iron/amethyst"
+      },
+
+      {
+        "predicate": {
+          "custom_model_data": 2
+        },
+        "model": "rl:trinkets/rings/iron/opal"
+      },
+
+      {
+        "predicate": {
+          "custom_model_data": 3
+        },
+        "model": "rl:trinkets/rings/iron/emerald"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 4
+        },
+        "model": "rl:trinkets/rings/iron/topaz"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 5
+        },
+        "model": "rl:trinkets/rings/iron/ruby"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6
+        },
+        "model": "rl:trinkets/rings/iron/sapphire"
+      }
+    ]
+  }
+  

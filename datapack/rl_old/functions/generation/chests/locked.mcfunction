@@ -1,0 +1,1 @@
+execute as @e[tag=rl_chest_locked] at @s align xyz positioned ~0.5 ~ ~0.5 run summon interaction ^ ^ ^-1 {width:1.01f,height:1.01f,Tags:["rl_locked_chest"]}

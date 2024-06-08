@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "rl_mana": {
+        "min": 0,
+        "max": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "rl_mana_max"
+        }
+      }
+    }
+  }
+  

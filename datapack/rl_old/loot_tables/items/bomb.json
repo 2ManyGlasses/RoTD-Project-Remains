@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:magma_cream",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Bomb\",\"italic\":false}',Lore:['{\"text\":\"Drop it on the ground to prime it.\",\"color\":\"gold\",\"italic\":false}','{\"text\":\"You have three seconds to find cover.\",\"color\":\"gold\",\"italic\":false}','{\"text\":\"***\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"Dangerous mining tool.\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"Used to blow enemies to smitherines\",\"color\":\"dark_gray\",\"italic\":false}']},CustomModelData:1,isDynamite:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "#M#",
+      "# #",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:gold_ingot"
+      },
+      "M": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "result": {
+      "id": "minecraft:heartbreak_pottery_sherd",
+      "count": 1,
+      "components": {
+        "minecraft:custom_name": "{\"translate\":\"rl.item.trinkets.ring.golden.amethyst\", \"italic\":false, \"color\":\"aqua\"}",
+        "minecraft:lore": [
+          "{\"translate\":\"rl.item.type.trinket\", \"color\":\"dark_aqua\",\"italic\":false}",
+          "{\"translate\":\"rl.item.trinkets.ring.golden.amethyst.desc\", \"color\":\"green\",\"italic\":false}",
+          "{\"text\":\"***\", \"color\":\"dark_gray\",\"italic\":false}",
+          "{\"translate\":\"rl.item.trinkets.ring.golden.amethyst.lore1\", \"color\":\"dark_gray\",\"italic\":false}",
+          "{\"translate\":\"rl.item.trinkets.ring.golden.amethyst.lore2\", \"color\":\"dark_gray\",\"italic\":false}"
+
+        ],
+        "minecraft:custom_model_data": 1,
+        "minecraft:max_stack_size" : 1,
+        "minecraft:custom_data": {
+            "isTrinket":1,
+            "ringAmethyst":3
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_foot",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Copper Feather\",\"color\":\"dark_purple\",\"italic\":false}',Lore:['{\"text\":\"Trinket\",\"color\":\"dark_aqua\",\"italic\":false}','{\"text\":\"15% chance of shocking the enemy who hit you\",\"color\":\"gold\",\"italic\":false}','{\"text\":\"***\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"The feather from the\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"long-extinct Lightning Sowers\",\"color\":\"dark_gray\",\"italic\":false}']},CustomModelData:3,isTrinket:1b,copperFeather:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+execute store result score @s rl_coords_x run data get entity @s Pos[0] 1
+execute store result score @s rl_coords_z run data get entity @s Pos[2] 1
+
+scoreboard players add @s rl_mana_max 1
+
+execute if entity @s[y_rotation=135..-135] run title @s actionbar [{"text":"[","color":"gold"},{"score":{"name":"@s","objective":"rl_coords_x"},"color":"gold"}," ",{"score":{"name":"@s","objective":"rl_coords_z"},"color":"gold"},{"text":"]","color":"gold"},"  ",{"text": "( N )", "color": "gold"}, {"text":"  |  ", "color":"dark_gray"}, {"text":"✨","color":"aqua"},{"score":{"name":"@s","objective":"rl_mana"},"color":"aqua"},{"text":"/","color":"aqua"},{"score":{"name":"@s","objective":"rl_mana_max"},"color":"aqua"}]
+execute if entity @s[y_rotation=-135..-45] run title @s actionbar [{"text":"[","color":"gold"},{"score":{"name":"@s","objective":"rl_coords_x"},"color":"gold"}," ",{"score":{"name":"@s","objective":"rl_coords_z"},"color":"gold"},{"text":"]","color":"gold"},"  ",{"text": "( E )", "color": "gold"}, {"text":"  |  ", "color":"dark_gray"}, {"text":"✨","color":"aqua"},{"score":{"name":"@s","objective":"rl_mana"},"color":"aqua"},{"text":"/","color":"aqua"},{"score":{"name":"@s","objective":"rl_mana_max"},"color":"aqua"}]
+execute if entity @s[y_rotation=-45..45] run title @s actionbar [{"text":"[","color":"gold"},{"score":{"name":"@s","objective":"rl_coords_x"},"color":"gold"}," ",{"score":{"name":"@s","objective":"rl_coords_z"},"color":"gold"},{"text":"]","color":"gold"},"  ",{"text": "( S )", "color": "gold"}, {"text":"  |  ", "color":"dark_gray"}, {"text":"✨","color":"aqua"},{"score":{"name":"@s","objective":"rl_mana"},"color":"aqua"},{"text":"/","color":"aqua"},{"score":{"name":"@s","objective":"rl_mana_max"},"color":"aqua"}] 
+execute if entity @s[y_rotation=45..135] run title @s actionbar [{"text":"[","color":"gold"},{"score":{"name":"@s","objective":"rl_coords_x"},"color":"gold"}," ",{"score":{"name":"@s","objective":"rl_coords_z"},"color":"gold"},{"text":"]","color":"gold"},"  ",{"text": "( W )", "color": "gold"}, {"text":"  |  ", "color":"dark_gray"}, {"text":"✨","color":"aqua"},{"score":{"name":"@s","objective":"rl_mana"},"color":"aqua"},{"text":"/","color":"aqua"},{"score":{"name":"@s","objective":"rl_mana_max"},"color":"aqua"}]
+
+scoreboard players remove @s rl_mana_max 1

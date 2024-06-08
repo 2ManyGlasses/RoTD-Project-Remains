@@ -1,0 +1,81 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:flint",
+                    "weight": 50,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "target": "custom_name",
+                            "name": "Miner"
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{isMonsterTarget:1, type:\"miner\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:flint",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "target": "custom_name",
+                            "name": "Spider"
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{isMonsterTarget:1, type:\"spider\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:flint",
+                    "weight": 30,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "target": "custom_name",
+                            "name": "Sentinel"
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{isMonsterTarget:1, type:\"sentinel\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

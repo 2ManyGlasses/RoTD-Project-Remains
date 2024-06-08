@@ -1,0 +1,45 @@
+{
+    "lockpick_used": {
+        "subtitle" : "rl.subtitle.item.used.lockpick",
+        "sounds" : [
+            {"name": "rl:locks/lockpick_used"}
+        ]
+    },
+
+    "chest_unlocked": {
+        "subtitle" : "rl.subtitle.chest.unlocked",
+        "sounds" : [
+            {"name": "rl:locks/chest_unlocked"}
+        ]
+    },
+
+    "door_unlocked": {
+        "subtitle" : "rl.subtitle.door.unlocked",
+        "sounds" : [
+            {"name": "rl:locks/door_unlocked"}
+        ]
+    },
+
+    "trade_completed": {
+        "subtitle" : "rl.subtitle.other.trade_completed",
+        "sounds" : [
+            {"name": "rl:other/trades/trade1"},
+            {"name": "rl:other/trades/trade2"},
+            {"name": "rl:other/trades/trade3"}
+        ]
+    },
+
+    "tuner_luck_shift": {
+        "subtitle" : "rl.subtitle.item.tuner.luck_shift",
+        "sounds" : [
+            {"name" : "rl:other/trinkets/utility/luck_shift"}
+        ]
+    },
+
+    "skill_point_got": {
+        "subtitle" : "rl.subtitle.player.level_up",
+        "sounds" : [
+            {"name" : "rl:other/player/level_up"}
+        ]
+    }
+}

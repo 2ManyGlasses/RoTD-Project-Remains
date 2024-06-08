@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:egg"
+        }
+    ],
+    "result": {
+        "id": "minecraft:heart_pottery_sherd",
+        "count": 2,
+        "components": {
+            "minecraft:custom_name": "{\"translate\":\"rl.item.dough\", \"italic\":false}"
+        }
+    }
+}

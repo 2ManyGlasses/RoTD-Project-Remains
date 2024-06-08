@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "#M#",
+      "# #",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:iron_ingot"
+      },
+      "M": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "result": {
+      "id": "minecraft:shelter_pottery_sherd",
+      "count": 1,
+      "components": {
+        "minecraft:custom_name": "{\"translate\":\"rl.item.trinkets.ring.iron.emerald\", \"italic\":false, \"color\":\"aqua\"}",
+        "minecraft:lore": [
+          "{\"translate\":\"rl.item.type.trinket\", \"color\":\"dark_aqua\",\"italic\":false}",
+          "{\"translate\":\"rl.item.trinkets.ring.iron.emerald.desc\", \"color\":\"green\",\"italic\":false}",
+          "{\"text\":\"***\", \"color\":\"dark_gray\",\"italic\":false}",
+          "{\"translate\":\"rl.item.trinkets.ring.iron.emerald.lore1\", \"color\":\"dark_gray\",\"italic\":false}",
+          "{\"translate\":\"rl.item.trinkets.ring.iron.emerald.lore2\", \"color\":\"dark_gray\",\"italic\":false}"
+
+        ],
+        "minecraft:custom_model_data": 3,
+        "minecraft:max_stack_size" : 1,
+        "minecraft:custom_data": {
+            "isTrinket":1,
+            "ringEmerald":2
+        }
+      }
+    }
+  }
+  

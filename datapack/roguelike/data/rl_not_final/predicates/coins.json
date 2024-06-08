@@ -1,0 +1,60 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "inventory.*": {
+              "items": "minecraft:ghast_tear",
+              "count": {
+                "min": 15,
+                "max": 9999999999
+              },
+              "predicates": {
+                "minecraft:custom_data": "{coin:1}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "hotbar.*": {
+              "items": "minecraft:ghast_tear",
+              "count": {
+                "min": 15,
+                "max": 9999999999
+              },
+              "predicates": {
+                "minecraft:custom_data": "{coin:1}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "weapon.*": {
+              "items": "minecraft:ghast_tear",
+              "count": {
+                "min": 15,
+                "max": 9999999999
+              },
+              "predicates": {
+                "minecraft:custom_data": "{coin:1}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,373 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rabbit_stew",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "weight": 5,
+            "quality": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_porkchop",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "weight": 10,
+            "quality": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:baked_potato",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 5.0,
+                  "min": 2.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "weight": 10,
+            "quality": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bread",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 5.0,
+                  "min": 2.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "weight": 10,
+            "quality": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{effects:[{\"id\":\"minecraft:nausea\",\"duration\":600}]}"
+              }
+            ],
+            "weight": 7,
+            "quality": -5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "weight": 8,
+            "quality": 0
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{effects:[{\"id\":\"minecraft:saturation\",\"duration\":5}]}"
+              }
+            ],
+            "weight": 5,
+            "quality": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{effects:[{\"id\":\"minecraft:regeneration\",\"duration\":200}]}"
+              }
+            ],
+            "weight": 4,
+            "quality": 30
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{effects:[{\"id\":\"minecraft:weakness\",\"duration\":800}]}"
+              }
+            ],
+            "weight": 5,
+            "quality": -20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{effects:[{\"id\":\"minecraft:hunger\",\"duration\":400}]}"
+              }
+            ],
+            "weight": 6,
+            "quality": -10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rotten_flesh",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "weight": 15,
+            "quality": -10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:poisonous_potato",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 5.0,
+                  "min": 2.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "weight": 5,
+            "quality": -20
+          },
+          {
+            "type": "empty",
+            "weight": 10,
+            "quality": -20
+          }
+        ],
+        "rolls": 1
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 2.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Mała butelka wody\",\"italic\":false}]'}, Potion:'water'}"
+              }
+            ],
+            "weight": 30,
+            "quality": 30
+          },
+          {    
+            "type": "empty",
+            "weight": 70,
+            "quality": -20
+          }
+        ],
+        "rolls": 1
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Coin high\",\"italic\":false,\"color\":\"yellow\"}]',Lore:['[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Currency used all over\",\"italic\":false}]','[{\"text\":\"the continent(or something)\",\"italic\":false}]']},Enchantments:[{id:unbreaking,lvl:1}],HideFlags:1}"
+              }
+            ],
+            "weight": 5,
+            "quality": 30
+          },
+          {
+            "type": "item",
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 5.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Coin low\",\"italic\":false,\"color\":\"yellow\"}]',Lore:['[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Currency used all over\",\"italic\":false}]','[{\"text\":\"the continent(or something)\",\"italic\":false}]']},HideFlags:1}"
+              }
+            ],
+            "weight": 25,
+            "quality": 20
+          },
+          {
+              "type":"empty",
+              "weight": 70,
+              "quality": -40
+          }
+        ],
+        "rolls": 1
+      },
+      {
+        "bonus_rolls": 2.0,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:leather",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 2.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"cloth piece\",\"italic\":false}]'}}"
+              }
+            ],
+            "weight": 20,
+            "quality": 0
+          },
+          {
+            "type": "item",
+            "name": "minecraft:glass_bottle",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 2.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "weight": 20
+          },
+          {
+            "type": "item",
+            "name": "minecraft:iron_nugget",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 2.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"scrap\",\"italic\":false}]'}}"
+              }
+            ],
+            "weight": 20
+          },
+          {
+            "type": "item",
+            "name": "minecraft:string",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 2.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "weight": 20
+          },
+          {
+            "type": "item",
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 2.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "weight": 20
+          },
+          {
+            "type": "item",
+            "name": "minecraft:bowl",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 2.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "weight": 20
+          }
+        ],
+        "rolls": 2
+      }
+      ],
+      "random_sequence": "minecraft:chests/abandoned_mineshaft"
+    }
+  

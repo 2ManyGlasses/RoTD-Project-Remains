@@ -1,0 +1,2 @@
+execute as @a run attribute @s generic.movement_speed modifier add 4e85acac-7318-4ccf-ba3e-00750e799c75 "emerald" 0.02 add_value
+execute as @a run attribute @s generic.jump_strength modifier add db3dbb34-b663-47b3-880c-3d9534b03779 "emerald" 0.01 add_value

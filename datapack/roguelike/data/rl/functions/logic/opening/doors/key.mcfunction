@@ -1,0 +1,1 @@
+execute as @s on target if entity @s[predicate=rl:locks/key] run function rl:logic/opening/doors/key_success
