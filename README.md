@@ -1,7 +1,7 @@
 # Rouges of The Disk - Project Remains
 **WARNING: This is not a working project. The code is seperated into two versions due to snapshot 24w09a which caused partial rewrite. It's very messy and largely unfunctional.**
 
-**Some textures were modified Minecraft Textures. Copyright on those files belongs to Mojang.**
+**Some textures were modified Minecraft Textures. Copyright on those textures belongs to Mojang.**
 
 ***
 
